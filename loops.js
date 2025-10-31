@@ -17,8 +17,11 @@ for (let i = 0; i <= numbersList.length - 1; i++) {
 }
 
 console.log(" reversed numbers");
-for (let i = numbersList.length - 1; i >= 0; i--) {
+let i = numbersList.length -1;
+while (i >= 0) {
   console.log(numbersList[i]);
+
+  i--;
 }
 
 console.log("even numbers");
